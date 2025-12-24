@@ -1,0 +1,1799 @@
+{
+  "retcode": "0",
+  "retmsg": "操作成功",
+  "data": {
+    "orgNum": "070402000917000",
+    "orgName": "杭州公交集团",
+    "orgLevel": 1,
+    "siteId": null,
+    "siteName": null,
+    "owned": true,
+    "operateUserOwned": true,
+    "children": [
+      {
+        "orgNum": "55151104125036374111",
+        "orgName": "一公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55151104151055849047",
+            "orgName": "101车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151106957047",
+            "orgName": "102车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55190611094718499000",
+            "orgName": "103车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151120061048",
+            "orgName": "104车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151139342048",
+            "orgName": "105车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151149888049",
+            "orgName": "106车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151111133456246000",
+            "orgName": "107车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041250363741112016",
+            "orgName": "一公司不在岗人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041250363741115519",
+            "orgName": "一公司管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "45",
+            "orgName": "一公司机动车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041250363741112019",
+            "orgName": "一公司离职人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041250363741115520",
+            "orgName": "一公司金通车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "3131245465476764324234",
+            "orgName": "一公司内保团队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "1011",
+            "orgName": "一公司其他车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "1032424421",
+            "orgName": "一公司机务管理科",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "10324244212",
+            "orgName": "一公司应急管理科",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55151104125058589112",
+        "orgName": "二公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55151104151159123050",
+            "orgName": "201车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151420615051",
+            "orgName": "202车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151431239052",
+            "orgName": "203车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151441036052",
+            "orgName": "204车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151448867053",
+            "orgName": "205车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104151459085054",
+            "orgName": "206车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "300000207",
+            "orgName": "207车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041250585891125516",
+            "orgName": "二公司管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041250585891125517",
+            "orgName": "二公司离职人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "12",
+            "orgName": "二公司机动车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041250585891125520",
+            "orgName": "二公司金通车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "2011",
+            "orgName": "二公司其他车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041250585891122015",
+            "orgName": "二公司不在岗人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "623133746833",
+            "orgName": "二公司机务管理科",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "120623242467",
+            "orgName": "二公司应急管理科",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55150921170238687000",
+        "orgName": "三公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "300000301",
+            "orgName": "301车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "300000302",
+            "orgName": "302车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "300000303",
+            "orgName": "303车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "300000304",
+            "orgName": "304车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "300000305",
+            "orgName": "305车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "300000306",
+            "orgName": "306车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160228090318107000",
+            "orgName": "机动",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551509211702386870002015",
+            "orgName": "三公司不在岗人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551509211702386870005516",
+            "orgName": "三公司机动车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "36",
+            "orgName": "三公司管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "78",
+            "orgName": "三公司离职人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "3011",
+            "orgName": "三公司其他",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55151104125305401114",
+        "orgName": "电车公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55151104152313559068",
+            "orgName": "601车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152320610069",
+            "orgName": "602车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152326913069",
+            "orgName": "603车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152334214070",
+            "orgName": "604车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152340922070",
+            "orgName": "605车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152351514071",
+            "orgName": "606车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "600000607",
+            "orgName": "607车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041253054011142015",
+            "orgName": "电车公司不在岗人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152359829071",
+            "orgName": "609车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041253054011145518",
+            "orgName": "电车公司机动车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041253054011145516",
+            "orgName": "电车公司管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "88",
+            "orgName": "电车公司离职人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "4011",
+            "orgName": "电车公司其他车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "688533220225",
+            "orgName": "电车机务管理科",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "233829401188",
+            "orgName": "电车应急管理科",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55151104125204140112",
+        "orgName": "五公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55151104152022364055",
+            "orgName": "801车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152035390056",
+            "orgName": "802车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152042941057",
+            "orgName": "803车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152052238058",
+            "orgName": "804车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152058946059",
+            "orgName": "805车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152106356060",
+            "orgName": "806车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152118384061",
+            "orgName": "807车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160330101125826213",
+            "orgName": "五公司机动车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041252041401122015",
+            "orgName": "五公司不在岗人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "65",
+            "orgName": "五公司离职人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "83",
+            "orgName": "五公司管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "5011",
+            "orgName": "五公司其他车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "1231456788954",
+            "orgName": "五公司内保团队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "326489175495",
+            "orgName": "五公司应急管理科",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "387821629315",
+            "orgName": "五公司机务管理科",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55151104125220239113",
+        "orgName": "六公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55151104152145747062",
+            "orgName": "701车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152152735062",
+            "orgName": "702车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152205122063",
+            "orgName": "703车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152211752064",
+            "orgName": "704车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152219099065",
+            "orgName": "705车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152227009066",
+            "orgName": "706车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55151104152241111067",
+            "orgName": "707车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041252202391132015",
+            "orgName": "六公司不在岗人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "551511041252202391135517",
+            "orgName": "六公司机动车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "19",
+            "orgName": "六公司管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "66",
+            "orgName": "六公司离职人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "6011",
+            "orgName": "六公司其他车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55160105150509083556",
+        "orgName": "余杭公交",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55160108140145069131",
+            "orgName": "901车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160108140156008131",
+            "orgName": "902车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160108140208582131",
+            "orgName": "903车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160108140125913131",
+            "orgName": "904车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160108140219054132",
+            "orgName": "905车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160108140242676133",
+            "orgName": "906车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160105150614238556",
+            "orgName": "907车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55160229105315637000",
+            "orgName": "908车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55161122204642760002",
+        "orgName": "大江东公交",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55161123091924078000",
+            "orgName": "1901车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55161129140857805130",
+            "orgName": "1902车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55161129140919068130",
+            "orgName": "1903车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55161129140956135130",
+            "orgName": "1904车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55161129141007661130",
+            "orgName": "1905车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55190225141117263000",
+        "orgName": "临安公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55190225141156534000",
+            "orgName": "1601车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55190226123520420000",
+            "orgName": "1602车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55190225161620720000",
+            "orgName": "1603车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55190226123932706000",
+            "orgName": "1605车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55190226124157187000",
+            "orgName": "临安於潜车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55190226123511345000",
+            "orgName": "临安昌化车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55190225161620721234",
+            "orgName": "临安场务司机",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "55190225161620720011",
+            "orgName": "临安管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "0704020009170002015",
+        "orgName": "杭州公交集团金通分公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "07040200091700020152015",
+            "orgName": "杭州公交集团金通车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "002",
+        "orgName": "场站临时",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "55180411095935610000",
+        "orgName": "集团巡视组",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55180411100710914000",
+            "orgName": "集团巡视组",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "0704020009170002016",
+        "orgName": "杭州公交集团金通分公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "07040200091700020162016",
+            "orgName": "杭州公交集团金通车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "99999999",
+        "orgName": "测试分公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "100016",
+            "orgName": "测试部",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55190606094634053007",
+        "orgName": "白马公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "55190606094849445007",
+            "orgName": "1801车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "141936822979",
+        "orgName": "物产集团",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "722511832209",
+        "orgName": "萧山公交",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "17000001",
+            "orgName": "1701车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "17000002",
+            "orgName": "1702车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "17000003",
+            "orgName": "1703车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "17000004",
+            "orgName": "1704车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "17000005",
+            "orgName": "1705车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "17000006",
+            "orgName": "1706车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "17000007",
+            "orgName": "大江东车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "502905123174",
+            "orgName": "客运生产部",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "17000008",
+            "orgName": "旅游（出租）分公司",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "170009",
+            "orgName": "萧山不在岗人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "20210311184710926",
+        "orgName": "富阳公交",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "12000001",
+            "orgName": "1201车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "12000002",
+            "orgName": "1202车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "12000003",
+            "orgName": "1203车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "12000004",
+            "orgName": "1204车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "12000005",
+            "orgName": "1205车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "12000006",
+            "orgName": "1206车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "12000008",
+            "orgName": "富阳公交机动车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "120008",
+            "orgName": "富阳不在岗人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "120009",
+            "orgName": "富阳管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "473310403737",
+        "orgName": "钱塘公交",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "111111111503",
+            "orgName": "1503车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "111111111502",
+            "orgName": "1502车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "1111111501",
+            "orgName": "1501车队",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "740794994276",
+            "orgName": "安全科用",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "150005",
+            "orgName": "钱塘管理人员",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "1111111506",
+            "orgName": "客运分公司",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "317288913193",
+        "orgName": "一修分公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "451311919247",
+        "orgName": "二修分公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "565985478874",
+        "orgName": "出租集团",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "426718153607",
+        "orgName": "传媒集团",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "987135939581",
+        "orgName": "科技集团",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "913790290279",
+            "orgName": "金通科技",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "55160725151251057659",
+        "orgName": "G20保障",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "700692225464",
+        "orgName": "中车",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "557361436093",
+            "orgName": "中车机务",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": [
+              {
+                "orgNum": "168779648324",
+                "orgName": "五公司",
+                "orgLevel": 2,
+                "siteId": null,
+                "siteName": null,
+                "owned": true,
+                "operateUserOwned": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "orgNum": "55160731123422200168",
+        "orgName": "G20",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "100000001",
+        "orgName": "修理分公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "769123591832",
+            "orgName": "应急抢修工段",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "545302015449",
+        "orgName": "自行车公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": [
+          {
+            "orgNum": "292120154372",
+            "orgName": "城南区域",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "794065718940",
+            "orgName": "城西区域",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "455427940963",
+            "orgName": "城北区域",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          },
+          {
+            "orgNum": "751883995027",
+            "orgName": "城东区域",
+            "orgLevel": 3,
+            "siteId": null,
+            "siteName": null,
+            "owned": true,
+            "operateUserOwned": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "orgNum": "123559153349",
+        "orgName": "自行车公交",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "971346484196",
+        "orgName": "建设分公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      },
+      {
+        "orgNum": "479806143081",
+        "orgName": "建设分公司",
+        "orgLevel": 2,
+        "siteId": null,
+        "siteName": null,
+        "owned": true,
+        "operateUserOwned": true,
+        "children": []
+      }
+    ]
+  },
+  "total": null,
+  "success": true
+}
