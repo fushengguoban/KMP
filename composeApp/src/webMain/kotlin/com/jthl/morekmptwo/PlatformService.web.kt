@@ -1,5 +1,7 @@
 package com.jthl.morekmptwo
 
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.window.ComposeViewport
 import kotlin.js.ExperimentalWasmJsInterop
 import kotlin.js.definedExternally
 import kotlin.js.js
@@ -8,12 +10,14 @@ import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 import kotlin.js.JsAny
+import kotlin.js.JsExport
 import kotlin.js.Promise
+import org.w3c.dom.HTMLCanvasElement
 
 external fun alert(message: String)
 
 @OptIn(ExperimentalWasmJsInterop::class)
-external fun prompt(message: String, default: String = definedExternally): String?
+//external fun prompt(message: String, default: String = definedExternally): String?
 
 external val window: Window
 
@@ -69,3 +73,11 @@ actual fun sendOtherInfoPage(message: String) {
     window.location.href = "../Hello Other.html"
 
 }
+
+@OptIn(markerClass = [ExperimentalMultiplatform::class])
+actual fun showPrompt(message: String): String? {
+    return window.prompt(message)
+}
+
+
+

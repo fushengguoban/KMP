@@ -5,11 +5,15 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeContentPadding
+import androidx.compose.foundation.layout.systemBars
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -146,42 +150,43 @@ fun DetailPage(navController: NavHostController) {
     var msgCount by remember {
         mutableIntStateOf(0)
     }
-    Column(modifier = Modifier.fillMaxSize()) {
-        Text("这是第二个界面", modifier = Modifier.clickable{
-            navController.navigate(TreePage)
-        })
-        Image(painter = painterResource(Res.drawable.compose_multiplatform), null)
-        Button(onClick = {
-            openFile(scope)
-//            rememberFilePickerLauncher.launch()
-        }) {
-            Text("请选择文件")
-        }
-
-        Column {
-            Text("发起网络请求！！！", modifier = Modifier.clickable {
-                scope.launch {
-//                    ApiClient.get("article/list/0/json")
-                    val user = UserRepository.getUser(0)
-                    user.onSuccess { it ->
-                        println(it.data.datas)
-                        platformService.showToast("请求成功---数据：${it.data.datas}")
-                    }
-                    user.onError { code, message ->
-                        println("这是错误的信息")
-                        platformService.showToast("请求失败")
-                    }
-                }
+    Scaffold(contentWindowInsets = WindowInsets.systemBars) { innerPadding ->
+        Column(modifier = Modifier.padding(innerPadding).fillMaxSize()) {
+            Text("这是第二个界面", modifier = Modifier.clickable {
+                navController.navigate(TreePage)
             })
-        }
-        PulseIndicator(Res.drawable.compose_multiplatform, Modifier)
+            Image(painter = painterResource(Res.drawable.compose_multiplatform), null)
+            Button(onClick = {
+                openFile(scope)
+//            rememberFilePickerLauncher.launch()
+            }) {
+                Text("请选择文件")
+            }
 
-        IconWithMsg(Res.drawable.icon_people_bg,msgCount)
-        Button(onClick = {
-            msgCount++
-        }){
-            Text("加1")
-        }
+            Column {
+                Text("发起网络请求！！！", modifier = Modifier.clickable {
+                    scope.launch {
+//                    ApiClient.get("article/list/0/json")
+                        val user = UserRepository.getUser(0)
+                        user.onSuccess { it ->
+                            println(it.data.datas)
+                            platformService.showToast("请求成功---数据：${it.data.datas}")
+                        }
+                        user.onError { code, message ->
+                            println("这是错误的信息")
+                            platformService.showToast("请求失败")
+                        }
+                    }
+                })
+            }
+            PulseIndicator(Res.drawable.compose_multiplatform, Modifier)
+
+            IconWithMsg(Res.drawable.icon_people_bg, msgCount)
+            Button(onClick = {
+                msgCount++
+            }) {
+                Text("加1")
+            }
 
 //        Column(modifier = Modifier.dragAndDropTarget(shouldStartDragAndDrop = {event->
 //
@@ -192,7 +197,9 @@ fun DetailPage(navController: NavHostController) {
 //            Text("请拖动文件自此")
 //        }
 
+        }
     }
+
 
 }
 

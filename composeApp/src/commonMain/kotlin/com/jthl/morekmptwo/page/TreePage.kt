@@ -1,13 +1,17 @@
 package com.jthl.morekmptwo.page
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeContent
+import androidx.compose.foundation.layout.systemBars
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -29,6 +33,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.jthl.morekmptwo.fetchPlatformUser
 import com.jthl.morekmptwo.sendOtherInfoPage
+import com.jthl.morekmptwo.showPrompt
 import com.jthl.morekmptwo.utils.loadTreeConfig
 import com.jthl.morekmptwo.view.CascadeSelector
 import com.jthl.morekmptwo.view.createMockData
@@ -54,59 +59,74 @@ fun TreePage(navController: NavHostController) {
     var parentRect by remember { mutableStateOf(Rect.Zero) } // 存储父 View 边界
     val scope = rememberCoroutineScope()
     var name by remember { mutableStateOf("未加载！") }
-    Surface(modifier = Modifier.fillMaxSize(), color = Color(0xFFF5F5F5)) {
-        Column(
-            modifier = Modifier.fillMaxSize().padding(16.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
+    var userInput by remember { mutableStateOf("") }
+    Scaffold(contentWindowInsets = WindowInsets.systemBars) { innerPadding ->
+        Surface(
+            modifier = Modifier.padding(innerPadding).fillMaxSize(),
+            color = Color(0xFFF5F5F5)
         ) {
-
-            Text(
-                text = "KMP 三级联动选择器示例",
-                fontSize = 24.sp,
-                fontWeight = FontWeight.Bold,
-                modifier = Modifier.padding(bottom = 32.dp)
-            )
-            Card(
-                modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
-                elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+            Column(
+                modifier = Modifier.fillMaxSize().padding(16.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Column(modifier = Modifier.padding(16.dp)) {
-                    Text(
-                        text = "已选择车队", fontSize = 14.sp,
-                        color = Color.Gray,
-                        modifier = Modifier.padding(bottom = 8.dp)
-                    )
-                    Text(
-                        text = selectedTeamsText,
-                        fontSize = 16.sp,
-                        modifier = Modifier.padding(bottom = 16.dp)
-                    )
-                    Button(
-                        onClick = { showDialog = true },
-                        modifier = Modifier.fillMaxWidth().onGloballyPositioned { coordinates ->
-                            parentRect = coordinates.boundsInWindow()
-                        },
-                        colors = ButtonDefaults.buttonColors(
-                            containerColor = Color(0xFF409EFF)
+
+                Text(
+                    text = "KMP 三级联动选择器示例",
+                    fontSize = 24.sp,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier.padding(bottom = 32.dp)
+                )
+                Card(
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                ) {
+                    Column(modifier = Modifier.padding(16.dp)) {
+                        Text(
+                            text = "已选择车队", fontSize = 14.sp,
+                            color = Color.Gray,
+                            modifier = Modifier.padding(bottom = 8.dp)
                         )
-                    ) {
-                        Text("选择车队组织")
+                        Text(
+                            text = selectedTeamsText,
+                            fontSize = 16.sp,
+                            modifier = Modifier.padding(bottom = 16.dp)
+                        )
+                        Button(
+                            onClick = { showDialog = true },
+                            modifier = Modifier.fillMaxWidth().onGloballyPositioned { coordinates ->
+                                parentRect = coordinates.boundsInWindow()
+                            },
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = Color(0xFF409EFF)
+                            )
+                        ) {
+                            Text("选择车队组织")
+                        }
                     }
+
                 }
 
-            }
-
-            Button(onClick = {
-//                scope.launch {
-//                    name = fetchPlatformUser("9527")
+//                Button(onClick = {
+////                scope.launch {
+////                    name = fetchPlatformUser("9527")
+////                }
+//                    sendOtherInfoPage("我是从KMP过来的！")
+//                }) {
+//                    Text("获取数据：$name")
 //                }
-                sendOtherInfoPage("我是从KMP过来的！")
-            }) {
-                Text("获取数据：$name")
-            }
+                Button(onClick = {
+                    val input = showPrompt("请输入内容")
+                    if (input != null) {
+                        userInput = input
+                    }
+                }) {
+                    Text("点击弹出 JS 输入框")
+                }
 
-        }
-        if (showDialog) {
+                Text("当前内容: $userInput")
+
+            }
+            if (showDialog) {
 //            CascadeSelectorDialog(
 //                data=mockData,
 //                onDismiss = { showDialog = false },
@@ -119,18 +139,21 @@ fun TreePage(navController: NavHostController) {
 //                    showDialog = false
 //                }
 //            )
-            CascadeSelector(
-                data = mockData,
-                onSelectionChange = { selectedTeams ->
-                    selectedCount = selectedTeams.size
-                    selectedTeamsText = if (selectedTeams.isEmpty()) {
-                        "未选择"
-                    } else {
-                        selectedTeams.joinToString("、") { it.name }
-                    }
-                },
-                parentRect
-            )
+                CascadeSelector(
+                    data = mockData,
+                    onSelectionChange = { selectedTeams ->
+                        selectedCount = selectedTeams.size
+                        selectedTeamsText = if (selectedTeams.isEmpty()) {
+                            "未选择"
+                        } else {
+                            selectedTeams.joinToString("、") { it.name }
+                        }
+                    },
+                    parentRect
+                )
+            }
         }
+
     }
+
 }

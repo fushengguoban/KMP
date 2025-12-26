@@ -23,3 +23,6 @@ expect suspend fun fetchPlatformUser(userId: String): String
 
 @OptIn(ExperimentalMultiplatform::class)
 expect fun sendOtherInfoPage(message: String)
+
+@OptIn(ExperimentalMultiplatform::class)
+expect fun showPrompt(message: String): String?

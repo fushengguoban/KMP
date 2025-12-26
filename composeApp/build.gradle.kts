@@ -98,9 +98,11 @@ kotlin {
         wasmJsMain.dependencies {
             // Wasm 特定依赖（如果有）
             implementation(compose.ui)
+            implementation(compose.runtime)
             implementation("io.ktor:ktor-client-js:3.3.3")
             implementation("org.jetbrains.kotlin-wrappers:kotlin-browser:2025.12.8")
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+
         }
 
 

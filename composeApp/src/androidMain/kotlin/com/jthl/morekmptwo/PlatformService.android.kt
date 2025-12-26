@@ -7,3 +7,12 @@ actual fun getPlatformService(): PlatformService {
 actual fun getPlatformName(): String {
     return "Android"
 }
+
+@OptIn(markerClass = [ExperimentalMultiplatform::class])
+actual suspend fun fetchPlatformUser(userId: String): String {
+    return ""
+}
+
+@OptIn(markerClass = [ExperimentalMultiplatform::class])
+actual fun sendOtherInfoPage(message: String) {
+}

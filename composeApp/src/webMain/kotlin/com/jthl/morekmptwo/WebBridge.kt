@@ -65,7 +65,7 @@ external interface JsUser : JsAny {
 }
 
 @OptIn(ExperimentalWasmJsInterop::class)
-external fun fetchUserData(userId:String): Promise<JsUser>
+external fun fetchUserData(userId: String): Promise<JsUser>
 
 
 
